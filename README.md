@@ -8,7 +8,21 @@ color scheme with hex values.
 Bonus: when clicking the hex values will copy them to the 
 clipboard.
 
-
-### Links
+### Notes
 
 ### Resources
+- Color Input:
+    - https://www.w3schools.com/tags/att_input_type_color.asp
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
+
+- Select Element:
+    - https://www.w3schools.com/tags/tag_select.asp
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+
+- JavaScript:
+
+Get the current selected color from the color picker
+
+- https://stackoverflow.com/questions/67774535/   how-to-get-selected-colour-from-colour-picker-without-clicking-outside-of-popup
+
+- https://www.w3schools.com/jsref/event_oninput.asp

@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Color Scheme Generator</title>
 </head>
+
 <body>
+    <main>
+        <h1>Color Scheme Generator</h1>
+        <div class="app-container">
+            <!-- Form Inputs -->
+            <form id="get-color-scheme">
+                <label for="pick-color"></label>
+                <input type="color" id="pick-color" value="#F55A5A">
+
+                <label for="scheme-select"></label>
+                <select name="schemes" id="scheme-select">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Monochrome-dark">Monochrome-dark</option>
+                    <option value="Monochrome-light">Monochrome-light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="Complement">Complement</option>
+                    <option value="Analogic-complement">Analogic-complement</option>
+                    <option value="Triad">Triad</option>
+                </select>
+
+                <button id="submit">Get color scheme</button>
+            </form>
+            <!-- Output Display -->
+        <div class="colors-container">
+            <div class="color color-one"></div>
+            <div class="color color-two"></div>
+            <div class="color color-three"></div>
+            <div class="color color-four"></div>
+            <div class="color color-five"></div>
+        </div>
+
+        <div class="color-values-container">
+           <div class="value value-one">#F55A5A</div>
+           <div class="value value-two">#2B283A</div>
+           <div class="value value-three">#FBF3AB</div>
+           <div class="value value-four">#AAD1B6</div>
+           <div class="value value-five">#A626D3</div>
+        </div>
+
+
+        </div>
+    </main>
     <script src="app.js"></script>
 </body>
+
 </html>
