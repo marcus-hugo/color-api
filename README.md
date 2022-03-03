@@ -19,6 +19,8 @@ clipboard.
     - https://www.w3schools.com/tags/tag_select.asp
     - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
 
+https://www.w3docs.com/snippets/css/how-to-select-all-child-elements-except-the-last-one.html
+
 - JavaScript:
 
 Get the current selected color from the color picker
@@ -26,3 +28,9 @@ Get the current selected color from the color picker
 - https://stackoverflow.com/questions/67774535/   how-to-get-selected-colour-from-colour-picker-without-clicking-outside-of-popup
 
 - https://www.w3schools.com/jsref/event_oninput.asp
+
+Copying to the clipboard
+
+- https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard#writing_to_the_clipboard
+
+- https://whatwebcando.today/clipboard.html
