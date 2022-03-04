@@ -1,5 +1,6 @@
 const html = document.querySelector('html');
 const body = document.querySelector('body');
+const app = document.querySelector('.app-container');
 const color = document.getElementById('pick-color');
 let pickedColor = '';
 
@@ -56,7 +57,7 @@ form.addEventListener('submit', function (event) {
                 schemeData.colors[4].hex.value
             ];
 
-            body.style.borderImage = `linear-gradient(to right, 
+            app.style.borderImage = `linear-gradient(to right, 
             ${colorHexsArr[0]}, 
             ${colorHexsArr[1]}, 
             ${colorHexsArr[2]}, 
