@@ -19,7 +19,6 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    padding: 1rem;
 }
 
 h1 {
@@ -33,8 +32,8 @@ h1 {
 .app-container {
     max-width: 550px;
     margin: 0 auto;
-    border: .7rem solid;
-    padding: 1rem;
+    border: .3rem solid;
+    padding: .7rem;
     border-image: linear-gradient(to right, 
     #F55A5A, 
     #2B283A, 
