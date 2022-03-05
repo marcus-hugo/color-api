@@ -1,32 +1,23 @@
-const html = document.querySelector('html');
-const body = document.querySelector('body');
 const app = document.querySelector('.app-container');
 const color = document.getElementById('pick-color');
-let pickedColor = '';
-
 const scheme = document.getElementById('scheme-select');
-let pickedScheme = '';
-
 const form = document.getElementById('get-color-scheme');
-const submitButton = document.getElementById('submit');
+const colorOne = document.querySelector('.color-one');
+const colorTwo = document.querySelector('.color-two');
+const colorThree = document.querySelector('.color-three');
+const colorFour = document.querySelector('.color-four');
+const colorFive = document.querySelector('.color-five');
+const valueOne = document.querySelector('.value-one');
+const valueTwo = document.querySelector('.value-two');
+const valueThree = document.querySelector('.value-three');
+const valueFour = document.querySelector('.value-four');
+const valueFive = document.querySelector('.value-five');
+const colorDivsArr = document.querySelectorAll('.color');
+const modal = document.querySelector('.modal');
 
+let pickedColor = '';
+let pickedScheme = '';
 let schemeData = '';
-let colorsArr = ['#F55A5A', '#2B283A', '#FBF3AB', '#AAD1B6', '#A626D3'];
-
-colorOne = document.querySelector('.color-one');
-colorTwo = document.querySelector('.color-two');
-colorThree = document.querySelector('.color-three');
-colorFour = document.querySelector('.color-four');
-colorFive = document.querySelector('.color-five');
-
-valueOne = document.querySelector('.value-one');
-valueTwo = document.querySelector('.value-two');
-valueThree = document.querySelector('.value-three');
-valueFour = document.querySelector('.value-four');
-valueFive = document.querySelector('.value-five');
-
-let colorDivsArr = document.querySelectorAll('.color');
-let modal = document.querySelector('.modal');
 
 modal.style.display = 'none';
 
