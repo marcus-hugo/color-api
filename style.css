@@ -34,12 +34,14 @@ h1 {
     margin: 0 auto;
     border: .3rem solid;
     padding: .7rem;
-    border-image: linear-gradient(to right, 
+    border-image: linear-gradient(to right,
+    rgb(0,0,0,0),
     #F55A5A, 
     #2B283A, 
     #FBF3AB, 
     #AAD1B6, 
-    #A626D3) 1;
+    #A626D3,
+    rgb(0,0,0,0)) 1;
 }
 
 form {

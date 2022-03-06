@@ -48,12 +48,14 @@ form.addEventListener('submit', function (event) {
                 schemeData.colors[4].hex.value
             ];
 
-            app.style.borderImage = `linear-gradient(to right, 
-            ${colorHexsArr[0]}, 
-            ${colorHexsArr[1]}, 
-            ${colorHexsArr[2]}, 
-            ${colorHexsArr[3]}, 
-            ${colorHexsArr[4]}) 1`;
+            app.style.borderImage = `linear-gradient(to right,
+                rgb(0,0,0,0),
+                ${colorHexsArr[0]}, 
+                ${colorHexsArr[1]}, 
+                ${colorHexsArr[2]}, 
+                ${colorHexsArr[3]}, 
+                ${colorHexsArr[4]},
+                rgb(0,0,0,0)) 1`;
 
             colorOne.style.background = schemeData.colors[0].hex.value;
             colorTwo.style.background = schemeData.colors[1].hex.value;
@@ -73,8 +75,7 @@ form.addEventListener('submit', function (event) {
 for (let i = 0; i < colorDivsArr.length; i++) {
     colorDivsArr[i].addEventListener('click', function (e) {
 
-        if(schemeData === '') {
-        } else { 
+        if (schemeData === '') {} else {
             let colorHex = schemeData.colors[i].hex.value;
             navigator.clipboard.writeText(colorHex);
             modal.style.display = 'inline-block';
@@ -89,6 +90,6 @@ for (let i = 0; i < colorDivsArr.length; i++) {
 
             setTimeout(remove, 1000);
         }
-        
+
     })
 }
